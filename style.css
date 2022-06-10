@@ -13,7 +13,7 @@ body {
 
 img {
   max-width: 100%;
-  display: flex;
+  display: grid;
 }
 
 a {
@@ -136,9 +136,7 @@ p {
   padding: 20px;
   border-left: 4px solid transparent;
 }
-img li {
-  font-size: 0.875em;
-}
+
 .vantagens-item:nth-child(odd) {
   background: #f7f7f7;
 }
