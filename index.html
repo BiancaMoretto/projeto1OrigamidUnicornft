@@ -1,49 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <title>Bikcraft</title>
+  <title>UnicorNFT</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/5fa935ed5f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <img src="./img/bikcraft.svg" alt="">
-  <div class="menu">
-    <a href="/">Sobre</a>
-    <a href="/">Produtos</a>
-    <a href="/">Lojas</a>
-    <a href="/">Contato</a>
-  </div>
 
-  <div class="conteudo">
-    <div class="introducao">
-      <span class="detalhe"></span>
-      <h1>Bicicletas feitas à mão</h1>
-      <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem
-        equipada com os melhores acessórios da marca.</p>
-      <a class="botao" href="/">VER MAIS</a>
-    </div>
-    <img src="/img/bicicleta.jpg" alt="Bicicleta Bikcraft Preta">
-    <h2 class="subtitulo">VANTAGENS BIKCRAFT</h2>
-    <div class="vantagens">
-      <div class="vantagens-item">
-        <img src="./img/eletrica.svg" alt="">
-        <h3>Motor Elétrico</h3>
-        <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
-        <img src="/img/velocidade.svg" alt="">
-        <h3>40 km/h</h3>
-        <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-        <img src="/img/rastreador.svg" alt="">
-        <h3>Rastreador</h3>
-        <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+  <header class="header">
+    <img src="./img/unicorn.svg" alt="">
+
+    <nav aria-label="primária">
+      <ul class="menu">
+        <li><a href="/">Sobre</a></li>
+        <li><a href="/">Portfólio</a></li>
+        <li><a href="/">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="conteudo" aria-labelledby="label-introducao">
+      <div class="introducao">
+        <h1 id="label-introducao">Desenhos e pinturas com história e verdade</h1>
+        <p>Aqui na UnicorNFT pode-se encontrar as mais criativas, sensíveis e encantadoras obras digitais da jovem artista Lara Clari, em suporte digital ou físico.</p>
+        <a class="botao" href="/">VER MAIS</a>
       </div>
-    </div>
-  </div>
+      <img src="/img/Casal.ClarissaM.png" alt="Casal de Pôneis em Desenho, azul e rosa">
+    </article>
 
-  <div class="rodape">
-    <p>Bikcraft. Alguns Direitos Reservados.</p>
-  </div>
+    <article class="conteudo" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="label-vantagens">Diferenciais UnicorNFT</h2>
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <i class="fa-solid fa-pencil" alt=""></i>
+          <h3>Unicidade</h3>
+          <p>
+            Produzidas sob demanda, cada cliente terá uma obra única, concebidas de acordo com seus sonhos e desejos.</p>
+        </li>
+        <li class="vantagens-item">
+          <i class="fa-solid fa-splotch" alt=""></i>
+          <h3>Autenticidade</h3>
+          <p>Todas as obras vem com certificado de autenticação, assinatura e selos digitais.
+          </p>
+        </li>
+        <li class="vantagens-item">
+          <i class="fa-solid fa-wand-magic-sparkles" alt=""></i>
+          <h3>Experiência do Cliente</h3>
+          <p>A fim de fidelizar e encantar o cliente, todas as encomendas vêm com um brinde exclusivo e fofo!</p>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer class="rodape">
+    <p>UnicorNFT. Alguns Direitos Reservados.</p>
+  </footer>
 </body>
 
 
