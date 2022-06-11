@@ -164,9 +164,6 @@ p {
   .subtitulo {
     text-align: center;
   }
-}
-
-@media (max-width: 800px) {
   body {
     gap: 30px;
     margin-top: 20px;
