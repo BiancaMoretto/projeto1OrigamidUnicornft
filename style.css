@@ -164,6 +164,9 @@ p {
   .subtitulo {
     text-align: center;
   }
+}
+
+@media (max-width: 800px) {
   body {
     gap: 30px;
     margin-top: 20px;
@@ -186,7 +189,7 @@ p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .subtitulo {
     font-size: 2rem;
   }
