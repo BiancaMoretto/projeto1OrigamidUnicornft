@@ -187,6 +187,13 @@ p {
   .subtitulo {
     font-size: 3rem;
   }
+  a .botao {
+    font-size: 0.875rem;
+  }
+
+  li .vantagens-item {
+    gap: 15px 25px;
+  }
 }
 
 @media (max-width: 600px) {
